@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Flask
+instance/
+.env
+
+# Database
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pytest
+.pytest_cache/
+
+# Data files (local development)
+data/articles.json
+data/users.json
+data/versions.json
+data/search_index/
+
+# Claude AI temporary files
+tmpclaude-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
